@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.11/jquery.csv.min.js"></script>
+		
+	</head>
+	<script>
+		   function load_js()
+		   {
+		      var head= document.getElementsByTagName('head')[0];
+		      var script= document.createElement('script');
+		      script.src= 'logic.js';
+		      head.appendChild(script);
+		   }
+		   load_js();
+		</script>
+	<body>
+		<!--
+		<div id="Language-Selection">
+			<ul id = "language-menu" class = "horizontal-menu">
+				<li onclick="showProject('Python')" class = "horizontal">Python</li>
+				<li onclick="showProject('Java')" class = "horizontal">Java</li>
+				<li onclick="showProject('Ruby')" class = "horizontal">Ruby</li>
+				<li onclick="showProject('C')" class = "horizontal">C</li>
+				<li onclick="showProject('Ocaml')" class = "horizontal">Ocaml</li>
+
+			</ul>
+		</div>-->
+
+
+		<table id="projects">
+			<thead class="language-head">
+				<tr>
+					<th class = "horizontal" onclick="showProject('Python')" colspan="3">Python</th>
+					<th class = "horizontal" onclick="showProject('Java')" colspan="3">Java</th>
+					<th class = "horizontal"onclick="showProject('Ruby')" colspan="3">Ruby</th>
+					<th class = "horizontal"onclick="showProject('C')"colspan="3">C</th>
+					<th class = "horizontal" onclick="showProject('Ocaml')" colspan="3">Ocaml</th>					
+				</tr>
+
+
+
+			
+			</thead>
+		
+			<thead class="projects-head">
+				<tr >
+					<th colspan="5">Project Name</th>
+					<th colspan="5">Description</th>
+					<th colspan="5">Source Code</th>
+				</tr>
+
+			</thead>
+			
+
+
+			<tbody class = "projects-body">
+				<tr>
+					<th colspan="5">Dummy</th>
+					<th colspan="5"> <a href="./projects/dummy/p1Compress.zip" download>Dummy Desc</a></th>
+					<th colspan="5">Dummy Source</th>
+				</tr>
+
+				<tr>
+					<th colspan="5">Dummy</th>
+					<th colspan="5"> <a href="./projects/dummy/p1Compress.zip" download>Dummy Desc</a></th>
+					<th colspan="5">Dummy Source</th>
+				</tr>
+
+				<tr>
+					<th colspan="5">Dummy</th>
+					<th colspan="5"> <a href="./projects/dummy/p1Compress.zip" download>Dummy Desc</a></th>
+					<th colspan="5">Dummy Source</th>
+				</tr>
+
+				<tr>
+					<th colspan="5">Dummy</th>
+					<th colspan="5"> <a href="./projects/dummy/p1Compress.zip" download>Dummy Desc</a></th>
+					<th colspan="5">Dummy Source</th>
+				</tr>
+
+				<tr>
+					<th colspan="5">Dummy</th>
+					<th colspan="5"> <a href="./projects/dummy/p1Compress.zip" download>Dummy Desc</a></th>
+					<th colspan="5">Dummy Source</th>
+				</tr>
+
+
+			</tbody>
+
+			
+
+
+		</table>
+
+
+
+
+
+		<script src="logic.js"></script>
+	</body>
+</html>

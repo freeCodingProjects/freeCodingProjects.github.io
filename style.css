@@ -1,0 +1,77 @@
+.horizontal-menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+	/*display:inline;*/
+}
+
+.horizontal {
+	color: white;
+
+	background-color: #333333;
+	/*display:inline;*/
+	text-align: center;
+	padding: 16px;
+
+}
+
+.horizontal:hover {
+	background-color: #222222;
+	cursor: pointer;
+
+}
+
+
+
+.language-head {
+	text-align: center;
+	width: 40%;
+	line-height: 40px;
+}
+
+.language-head {
+	background-color: #333333;
+	background-color: #333732;
+	cursor: pointer;
+}
+
+
+#projects {
+	border-collapse: collapse;
+	table-layout: fixed;
+	position: relative;
+	background-color: #111111;
+	color: green;
+	width: 60%;
+}
+
+
+.projects-head  {
+	background-color: #400040;
+	color: white;
+	text-align: center;
+}
+
+
+.selected {
+	background-color: #575757;
+
+	/*transition: color 0.1s ease-in-out;*/
+}
+
+
+
+
+
+.projects-body {
+	background-color: green;
+	color: white;
+	text-align: center;
+}
+.projects-td-clickable:hover{
+	background-color: #111111;
+	text-align: center;
+	cursor: pointer;
+}
