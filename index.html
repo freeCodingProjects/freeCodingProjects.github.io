@@ -3,42 +3,34 @@
 	<meta charset="UTF-8">
 	<head>
 		<link rel="stylesheet" href="style.css">
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.11/jquery.csv.min.js"></script>
+		<script type="text/javascript" src="jqueryFile.js"></script>
+		<script src="jqueryCSV.js"></script>
 		
+		<title>Free Coding Projects!</title>
+		<link rel="icon" href="icon.png" type="image/x-icon">
 	</head>
-	<script>
-		   function load_js()
-		   {
-		      var head= document.getElementsByTagName('head')[0];
-		      var script= document.createElement('script');
-		      script.src= 'logic.js';
-		      head.appendChild(script);
-		   }
-		   load_js();
-		</script>
-	<body>
-		<!--
-		<div id="Language-Selection">
-			<ul id = "language-menu" class = "horizontal-menu">
-				<li onclick="showProject('Python')" class = "horizontal">Python</li>
-				<li onclick="showProject('Java')" class = "horizontal">Java</li>
-				<li onclick="showProject('Ruby')" class = "horizontal">Ruby</li>
-				<li onclick="showProject('C')" class = "horizontal">C</li>
-				<li onclick="showProject('Ocaml')" class = "horizontal">Ocaml</li>
 
-			</ul>
-		</div>-->
+	<body>
+		<section class="header-section">
+			<br/>
+			<h1 style="font-size:40px; color:white;vertical-align:text-top; margin-top: -5px">Free Coding Projects</h1>
+
+			<p1 class = "title-text ">
+				Learning to program can be dry! Purely textual games and projects can feel as if you're not truly accomplishing anything! The following projects, while not necessarily easy, are more than possible at introductory levels. More over, they come with defined instructions, solutions, and <b>pre-built graphical drivers!</b> Just code the logic and watch the project come to life! 
+			<p1>
+
+		</section>
+
 
 
 		<table id="projects">
 			<thead class="language-head">
 				<tr>
-					<th class = "horizontal" onclick="showProject('Python')" colspan="3">Python</th>
-					<th class = "horizontal" onclick="showProject('Java')" colspan="3">Java</th>
-					<th class = "horizontal"onclick="showProject('Ruby')" colspan="3">Ruby</th>
-					<th class = "horizontal"onclick="showProject('C')"colspan="3">C</th>
-					<th class = "horizontal" onclick="showProject('Ocaml')" colspan="3">Ocaml</th>					
+					<th class = "table-head" onclick="showProject('Python')" colspan="3">Python</th>
+					<th class = "table-head" onclick="showProject('Java')" colspan="3">Java</th>
+					<th class = "table-head"onclick="showProject('Ruby')" colspan="3">Ruby</th>
+					<th class = "table-head"onclick="showProject('C')"colspan="3">C</th>
+					<th class = "table-head" onclick="showProject('Ocaml')" colspan="3">Ocaml</th>					
 				</tr>
 
 
@@ -57,7 +49,7 @@
 			
 
 
-			<tbody class = "projects-body">
+			<tbody>
 				<tr>
 					<th colspan="5">Dummy</th>
 					<th colspan="5"> <a href="./projects/dummy/p1Compress.zip" download>Dummy Desc</a></th>
